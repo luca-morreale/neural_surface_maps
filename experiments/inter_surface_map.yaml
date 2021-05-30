@@ -1,0 +1,20 @@
+checkpointing :
+  checkpoint_path    : './outputs/neural_map/'
+  prefix : 'intersurface'
+
+dataset :
+  sample_path_g : './path_map.pth'
+  sample_path_f : './path_map.pth'
+  # eg
+  # sample_path_g : './bimba_map.pth'
+  # sample_path_f : './beethoven_map.pth'
+  num_workers   : 4
+  num_points    : 1024
+  num_epochs    : 80000
+  landmarks_g   : [0] # list of landmarks
+  landmarks_f   : [0] # list of landmarks
+
+
+hydra:
+  run:
+    dir: './'

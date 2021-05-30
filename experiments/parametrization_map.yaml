@@ -1,0 +1,14 @@
+checkpointing :
+  checkpoint_path    : './outputs/neural_map/'
+  prefix : 'parametrization'
+
+dataset :
+  sample_path : '/SET/YOUR/PATH/HERE/'
+  num_workers : 4
+  num_points  : 1024
+  num_epochs  : 80000
+
+
+hydra:
+  run:
+    dir: './'
