@@ -95,9 +95,12 @@ On top of the packages above, please install also [pytorch svd on gpu](https://g
 
 ## Data
 
-Any mesh can be used for this process. A data example can be downloaded [here](https://mega.nz/folder/SPQXkI6D#Wuq86POJlCgZUl3i7ueVow).
+Any mesh can be used for this process. A data example can be downloaded [here](https://geometry.cs.ucl.ac.uk/projects/2021/neuralmaps/paper_docs/data.zip).
 
+## Related projects
 
+- [Neural Semantic Surface Maps](https://github.com/luca-morreale/nssm)
+- [Neural Convolutional Maps](https://github.com/luca-morreale/neural_surfaces)
 
 ---
 ## Citation
